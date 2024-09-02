@@ -6,7 +6,7 @@ export const DEFAULT_SETTINGS: GarbleTextSettings = {
 	noGarbleOnHover = false,
 }
 
-export class GarbleTextSettingsTab extends Plugins SettingTab {
+export class GarbleTextSettingsTab extends PluginSettingTab {
 	plugin: GarbleText;
 
 	constructor(app: App, plugin: GarbleText) {
